@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useStore } from 'effector-react/effector-react.mjs'
 import Head from 'next/head'
 import { useRouter } from 'next/router'

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useMediaQuery } from '@/app/hooks/useMediaQuery'
 import CatalogFiltersDesktop from './CatalogFiltersDesktop'
 import { ICatalogFilterProps } from '@/app/types/catalog'

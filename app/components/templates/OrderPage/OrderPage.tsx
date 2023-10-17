@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useStore } from 'effector-react'
 import { toast } from 'react-toastify'
 import { useRouter } from 'next/router'

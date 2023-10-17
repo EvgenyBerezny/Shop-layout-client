@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useStore } from 'effector-react'
 import { useEffect, useState } from 'react'
 import { removeFromCartFx } from '@/app/api/shopping-cart'

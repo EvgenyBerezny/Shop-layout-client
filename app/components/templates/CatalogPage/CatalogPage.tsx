@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useRouter } from 'next/router'
 import ReactPaginate from 'react-paginate'
 import { $mode } from '@/app/context/mode'

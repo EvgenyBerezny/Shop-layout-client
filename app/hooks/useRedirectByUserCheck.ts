@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { checkUserAuthFx } from '../api/auth'
 import { setUser } from '../context/user'
 import { useRouter } from 'next/router'

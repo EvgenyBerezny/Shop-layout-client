@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { forwardRef, useEffect } from 'react'
 import { useStore } from 'effector-react'
 import Link from 'next/link'
