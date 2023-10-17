@@ -104,7 +104,7 @@ const AuthPage = () => {
           {!isMedia800 && (
             <div>
               <h2
-                className={`${styles.form__title} ${styles.title} ${darkModeClass}`}
+                className={`${styles.switch__title} ${styles.title} ${darkModeClass}`}
               >
                 Привет, друг!
               </h2>
