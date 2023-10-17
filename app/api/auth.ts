@@ -10,7 +10,7 @@ export const signUpFx = createEffect(
     const { data } = await api.post(url, { username, password, email })
 
     if (data.warningMessage) {
-      toast.warning(data.warningMessage)
+      // toast.warning(data.warningMessage)
       return
     }
 
@@ -42,7 +42,7 @@ export const checkUserAuthFx = createEffect(async (url: string) => {
       }
     }
 
-    toast.error((error as Error).message)
+    // toast.error((error as Error).message)
   }
 })
 
